@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Buy The Cheapest IPhone Test" >
+    <listeners>
+        <listener class-name="com.automationProject.listener.TestListener"/>
+    </listeners>
+
+    <test name="LoginTest">
+        <classes>
+            <class name="com.automationProject.test.BuyTheCheapestIPhone"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LoginPageTest]">
+  <parameter name="className" value="LoginPageTest"/>
+  <listeners>
+    <listener class-name="com.automationProject.listener.CustomTestNGReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Login Page Test Suite(failed)">
+    <parameter name="testCategory" value="LoginPageTest"/>
+    <parameter name="testName" value="LoginPageTest"/>
+    <classes>
+      <class name="com.automationProject.test.LoginPageTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="successLoginTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.automationProject.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Login Page Test Suite(failed) -->
+</suite> <!-- Failed suite [LoginPageTest] -->

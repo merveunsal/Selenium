@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Buy The Cheapest IPhone Test]">
+  <listeners>
+    <listener class-name="com.automationProject.listener.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="com.automationProject.test.BuyTheCheapestIPhone">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="buyTheCheapestIPhone"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.automationProject.test.BuyTheCheapestIPhone -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Buy The Cheapest IPhone Test] -->

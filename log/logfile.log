@@ -1,0 +1,7 @@
+2019-03-21 23:30:27 INFO  CustomTestNGReportListener:1014 - report folder deleted successfully..
+2019-03-21 23:30:27 INFO  CustomTestNGReportListener:1021 - report folder created successfully..
+2019-03-21 23:30:27 INFO  CustomTestNGReportListener:1096 - n11.com Test Suite onStart Suite 
+2019-03-21 23:30:34 INFO  CustomTestNGReportListener:1059 - successLoginTest method onTestStart
+2019-03-21 23:30:59 INFO  CustomTestNGReportListener:1064 - successLoginTest method onTestSuccess
+2019-03-21 23:31:00 INFO  CustomTestNGReportListener:1102 - n11.com Test Suite onFinish Suite 
+2019-03-21 23:31:00 INFO  SendEmail:66 - javax.mail.internet.AddressException: Illegal address in string ``''
