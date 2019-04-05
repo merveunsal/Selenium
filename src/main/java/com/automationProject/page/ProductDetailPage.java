@@ -30,9 +30,9 @@ public class ProductDetailPage extends BasePage {
 		}
 		Collections.sort(pricelist);
 		System.out.println("list : " + pricelist);
-		System.out.println("min value : " + pricelist.get(0));
+		System.out.println("min value : " + pricelist.get(1));
 		
-		By min_price_add_basket_button = By.xpath("//*[@data-brand='Apple']//span[@class='a-declarative']/div/div[1]/span[1][contains(text()," + pricelist.get(0) + ")]/../../../..//a[text()='Sepete Ekle']");
+		By min_price_add_basket_button = By.xpath("//*[@data-brand='Apple']//span[@class='a-declarative']/div/div[1]/span[1][contains(text()," + pricelist.get(1) + ")]/../../../..//a[text()='Sepete Ekle']");
 		clickWebElement(min_price_add_basket_button, 30);
 		
 	}
